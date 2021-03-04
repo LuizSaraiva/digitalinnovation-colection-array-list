@@ -1,16 +1,5 @@
 package one.digitalinnovation.collections
 
-data class Funcionario(
-    val nome:String,
-    val salario:Double,
-    val tipoContratacao:String
-){
-    override fun toString(): String =
-        """
-            Nome: $nome - Salario: $salario
-        """.trimIndent()
-}
-
 fun main() {
 
     val func1 = Funcionario("João", 2000.0, "CLT")
