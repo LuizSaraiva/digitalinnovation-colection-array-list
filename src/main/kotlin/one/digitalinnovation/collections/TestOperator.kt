@@ -7,8 +7,8 @@ fun main() {
     salarios.forEach { println(it) }
 
     println("-------------------------")
-    println("MAIOR salario: ${salarios.max()}")
-    println("MENOR salario:${salarios.min()}")
+    println("MAIOR salario: ${salarios.maxOrNull()}")
+    println("MENOR salario:${salarios.minOrNull()}")
     println("MEDIA salarial:${salarios.average()}")
 
     println("-------------------------")
@@ -16,6 +16,8 @@ fun main() {
 
     filtro.forEach { println(it)}
 
+    println("-------------------------")
+    println(salarios.count{ it in 2000.0.. 5000.0})
 
 
 }
