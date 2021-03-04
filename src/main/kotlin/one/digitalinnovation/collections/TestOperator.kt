@@ -18,6 +18,4 @@ fun main() {
 
     println("-------------------------")
     println(salarios.count{ it in 2000.0.. 5000.0})
-
-
 }
