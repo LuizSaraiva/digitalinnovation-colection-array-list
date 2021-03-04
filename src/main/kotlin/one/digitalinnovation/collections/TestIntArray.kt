@@ -25,11 +25,4 @@ fun main() {
     for(index in valueArray.indices)
         println(valueArray[index])
 
-    val valueArrayList = ArrayList<Int>()
-    valueArrayList.add(2)
-    valueArrayList.add(5)
-    valueArrayList.add(8)
-
-
-
 }
